@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+header {
+    background-color: #363636;
+    height: 75px;
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    color: #6B6B6B;
+    background-color: #F2F2F2;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.content {
+    max-width: 100%;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.column-left {
+    width: 750px;
+    max-width: 70%;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.article .article-image img {
+    max-width: 100%;
+    transition: opacity 0.5s linear;
+}
+
+.article .article-image img:hover {
+    opacity: 80%;
+}
+
+
+.article {
+    color: #6B6B6B;
+    font-size: 1.4rem;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.article .article-content {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DADADA;
+    padding: 45px 50px;
+}
+
+.column-right {
+    max-width: 30%;
+}
+
+.article .content-heading h1 {
+    margin: 0 0 30px 0;
+}
+
+.article .content-heading h1 a {
+    color: #444444;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.8rem;
+    transition: color 0.5s linear;
+}
+
+.article .content-heading a {
+    text-decoration: none;
+}
+
+.article .content-heading h1 a:hover {
+    color: #DA4453;
+}
+
+.article .content-meta {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.article .content-meta > div {
+    margin-right: 15px;
+}
+
+.article .content-meta > div:last-child {
+    margin-right: 0;
+}
+
+.article .content-meta a {
+    font-size: 13px;
+    color: #6B6B6B;
+    text-decoration: none;
+}
+
+.article .content-actions {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.article .content-actions .readmore {
+    background-color: #DA4453;
+    color: white;
+    font-size: 1.3rem;
+    padding: 11px 13px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #DA4453;
+    transition: background-color 0.3s linear;
+}
+
+.article .content-actions .readmore:hover {
+    background-color: black;
+    border-color: black;
+}
