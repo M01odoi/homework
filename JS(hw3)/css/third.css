@@ -1,0 +1,54 @@
+#first {
+    background-color: indianred;
+    height: 70px;
+}
+
+#second {
+    background-color: darkgray;
+    height: 50px;
+
+}
+
+#third {
+    background-color: lightpink;
+    height: 30px;
+
+}
+
+#fourth {
+    background-color: coral;
+    height: 100px;
+
+}
+
+#fifth {
+    background-color: cadetblue;
+    height: 90px;
+}
+
+#six {
+    background-color: lightsalmon;
+    height: 60px;
+}
+
+#seven {
+    background-color: lightgreen;
+    height: 10px;
+}
+
+#eight{
+    background-color: olivedrab;
+    height: 35px;
+}
+
+div{
+    width: 50px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: end;
+    margin-top: 250px;
+}
