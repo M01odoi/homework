@@ -1,0 +1,43 @@
+body {
+    margin: auto;
+    width: 80%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    display: inline-block;
+}
+
+article {
+    padding-top: 10%;
+}
+
+section {
+    width: 32.6%;
+    float: left;
+    padding-right: 1%;
+}
+
+section:last-child {
+    padding-right: 0;
+
+}
+
+.all {
+    margin: 15px 0;
+    padding: 0 1%;
+    border: 2px solid #000000;
+    box-shadow:  0 0 10px rgba(0,0,0,0.5);
+}
+
+.last {
+    float: right;
+}
+
+p {
+    float: none;
+}

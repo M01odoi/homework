@@ -1,0 +1,113 @@
+body {
+    margin: auto;
+    width: 60%;
+}
+
+span {
+    color: red;
+}
+
+.container {
+    background-color: #e2e2e2;
+    margin: 15px;
+    padding: 5px;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    background-color: #eeeeee;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+.first {
+    margin-right: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.float {
+    float: left;
+}
+
+.signature {
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.columnFirst {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+.columnSecond {
+    display: flex;
+    justify-content: left;
+}
+
+.solo {
+    width: 300px;
+    float: left;
+    background-color: #eeeeee;
+}
+
+.color {
+    background-color: #eeeeee;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+}
+
+.marginB {
+    margin-bottom: 3%;
+
+}
+
+input:focus {
+    background-color: lightcoral;
+    box-shadow: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 200px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 2px;
+}

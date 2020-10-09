@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="../css/fifth.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Hotel booking</h1>
+    </header>
+    <form id="form">
+        <div class="column">
+            <label>Name <span>*</span></label>
+            <div class="flex">
+                <div class="signature"><input class="first" type="text">First Name</div>
+                <div class="signature"><input type="text">Last Name</div>
+            </div>
+        </div>
+        <div class="column">
+            <label>E-mail <span>*</span></label>
+            <div class="signature"><input class="solo" type="email" placeholder="ex: myname@example.com">example@example.com
+            </div>
+        </div>
+        <div class="column">
+            <label>Room Type</label>
+            <select class="solo color">
+                <option>One room</option>
+                <option>Two room</option>
+                <option>Lux</option>
+            </select>
+        </div>
+        <div class="column">
+            <label>Number of Guests <span>*</span></label>
+            <input class="solo" type="number" value="0">
+        </div>
+        <div class="column">
+            <label>Arrival Date & Time <span>*</span></label>
+            <div class="columnFirst">
+                <input class="solo column" type="date" value="2020-10-22">
+                <div class="flex"><input type="number" value="11"><input type="number" value="40"><select class="color">
+                    <option>AM</option>
+                    <option>PM</option>
+                </select>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <label>Departure Date <span>*</span></label>
+            <div class="flex">
+                <div class="signature"><input type="number" value="10">Month</div>
+                <div class="signature"><input type="number" value="9">Day</div>
+                <div class="signature"><input type="number" value="2020">Year</div>
+            </div>
+        </div>
+        <div class="column">
+            <label>Free Pickup? <span>*</span></label>
+            <div class="columnFirst">
+                <div class="flex marginB"><input type="radio" checked name="pickup"> <label>Yes Please! - Pick me up on
+                    arrival</label>
+                </div>
+                <div class="flex"><input type="radio" name="pickup"> <label>No Thanks - I`ll make my own way
+                    there</label>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <label>Flight Number</label>
+            <input class="solo" type="text">
+        </div>
+        <div class="column">
+            <label>Special Requests</label>
+            <textarea class="solo"></textarea>
+        </div>
+    <button form="form">Submit</button>
+    </form>
+</div>
+</body>
+</html>
